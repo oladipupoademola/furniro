@@ -1,15 +1,23 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Main from './components/Main'
-import Browse from './components/Browse'
+import Home from './pages/Home'
+import About from './pages/About'
+import Services from './pages/Services'
+import Skills from './pages/Skills'
+import Projects from './pages/Projects'
+
 
 const App = () => {
   return (
     <>
-    <Navbar />
-    <Main />
-    <Browse />
-    </>
+   <Home/>
+   <About/>
+   <Services/>
+   <Skills/>
+   <Projects/>
+
+   
+   </>
+   
   )
 }
 
